@@ -10,6 +10,6 @@ Model is compiled using Adam optimiser and categorical cross entropy loss functi
 Due to the large variety of scenarios dealt by the model, it would be apt to use top_k_categorical_accuracy wherein we consider the top 5 probable label as true positive rather than 1.
 Model is trained with a batch size of 32 (7000 batches for 20 epochs).
 Results obtained after 20 epochs:
-•	Train accuracy : 96.63%
-•	Validation accuracy : 95.36%
-•	Testing : 75%
+-	Train accuracy : 96.63%
+-	Validation accuracy : 95.36%
+-	Testing : 75%
